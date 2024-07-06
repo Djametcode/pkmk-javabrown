@@ -15,8 +15,8 @@ export default function NavbarComponent() {
           />
         </div>
       </div>
-      <div className=" font-semibold flex gap-9 items-center h-full">
-        <div className=" flex gap-5 text-sm">
+      <div className=" font-semibold flex gap-12 items-center h-full">
+        <div className=" flex gap-9 text-sm">
           <Link to={"/"}>Home</Link>
           <Link to={"/"}>Tentang Kami</Link>
           <Link to={"/"}>Daftar Menu</Link>
