@@ -1,6 +1,9 @@
 export default function HeroComponent() {
   return (
-    <div className=" font-raleway h-[600px] flex justify-between items-center pt-16">
+    <div
+      id="hero"
+      className=" font-raleway h-[600px] flex justify-between items-center pt-16"
+    >
       <div className=" basis-1/2">
         <div className=" flex flex-col gap-5 items-start w-[300px]">
           <h1 className=" text-4xl font-extrabold">

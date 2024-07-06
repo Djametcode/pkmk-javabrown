@@ -17,8 +17,8 @@ export default function NavbarComponent() {
       </div>
       <div className=" font-semibold flex gap-12 items-center h-full">
         <div className=" flex gap-9 text-sm">
-          <Link to={"/"}>Home</Link>
-          <Link to={"/"}>Tentang Kami</Link>
+          <Link to={"#hero"}>Home</Link>
+          <Link to={"#aboutus"}>Tentang Kami</Link>
           <Link to={"/"}>Daftar Menu</Link>
           <Link to={"/"}>Testimoni</Link>
           <Link to={"/"}>Kontak Kami</Link>

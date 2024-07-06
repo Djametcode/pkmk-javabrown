@@ -1,6 +1,9 @@
 export default function AboutUsComponent() {
   return (
-    <div className=" w-full font-raleway h-[600px] flex justify-between items-center">
+    <div
+      id="aboutus"
+      className=" w-full font-raleway h-[600px] flex justify-between items-center"
+    >
       <div className=" basis-1/2 h-[700px] flex items-center justify-center">
         <div className=" w-[500px] h-[500px]">
           <img
