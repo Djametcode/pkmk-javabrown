@@ -1,7 +1,10 @@
 import AboutUsComponent from "./components/AboutUsComponent";
 import BestMenuComponent from "./components/BestMenuComponent";
+import CustomersReviewComponents from "./components/CustomerReview";
+import FooterComponent from "./components/FooterComponents";
 import HeroComponent from "./components/HeroComponent";
 import NavbarComponent from "./components/NavbarComponent";
+import WhyChooseUsComponent from "./components/WhyChooseUsComponents";
 
 export default function App() {
   return (
@@ -15,6 +18,9 @@ export default function App() {
           <HeroComponent />
           <AboutUsComponent />
           <BestMenuComponent />
+          <WhyChooseUsComponent />
+          <CustomersReviewComponents />
+          <FooterComponent />
         </div>
       </div>
     </div>
