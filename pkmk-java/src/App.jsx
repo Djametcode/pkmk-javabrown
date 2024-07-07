@@ -13,8 +13,8 @@ export default function App() {
         {/* <div className=" absolute top-0 right-0 z-0">
           <div className=" bg-[#ff9d02] h-[800px] w-[900px] rounded-bl-[500px]"></div>
         </div> */}
-        <div className=" w-full relative pr-44 pl-44 ">
-          <NavbarComponent />
+        <NavbarComponent />
+        <div className=" w-full relative max-sm:pr-5 max-sm:pl-5 pr-44 pl-44 ">
           <HeroComponent />
           <AboutUsComponent />
           <BestMenuComponent />

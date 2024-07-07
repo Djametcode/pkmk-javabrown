@@ -2,9 +2,9 @@ export default function AboutUsComponent() {
   return (
     <div
       id="aboutus"
-      className=" w-full font-raleway h-[600px] flex justify-between items-center"
+      className=" w-full font-raleway max-sm:h-[200px] h-[600px] flex max-sm:flex-col-reverse justify-between items-center"
     >
-      <div className=" basis-1/2 h-[700px] flex items-center justify-center">
+      <div className=" max-sm:hidden basis-1/2 max-sm:h-full h-[700px] flex items-center justify-center">
         <div className=" w-[500px] h-[500px]">
           <img
             className=" w-full h-full object-cover rounded-full"
@@ -13,7 +13,7 @@ export default function AboutUsComponent() {
           />
         </div>
       </div>
-      <div className=" basis-1/2 h-[700px] flex items-center justify-center">
+      <div className=" basis-1/2 max-sm:basis-0 max-sm:h-[200px] h-[700px] flex items-center justify-center">
         <div className=" flex flex-col gap-5 items-start w-[300px]">
           <h1 className=" text-4xl font-extrabold">
             About <span className=" text-[#f29b16]">Us</span>

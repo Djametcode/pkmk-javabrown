@@ -59,7 +59,7 @@ export default function CustomersReviewComponents() {
       <h1 className="text-4xl font-extrabold text-center font-openSans">
         Customers <span className="text-[#f29b16]">Say</span>
       </h1>
-      <div className=" flex items-center justify-center h-[550px] w-[1200px] pt-16">
+      <div className=" flex max-sm:flex-col items-center justify-center h-[550px] max-sm:w-screen w-[1200px] pt-16">
         <div className="flex flex-col items-start gap-3 basis-1/2 bg-white p-10 rounded-3xl">
           <div className="flex gap-3 mb-4">
             <div className="w-[40px] h-[40px] bg-black rounded-full"></div>
@@ -99,7 +99,7 @@ export default function CustomersReviewComponents() {
             </div>
           </div>
         </div>
-        <div className=" basis-1/2 w-full flex items-center justify-center">
+        <div className=" max-sm:hidden basis-1/2 w-full flex items-center justify-center">
           <img
             className=" w-[400px] h-[400px] object-cover rounded-full"
             src={dummyCustomer[currentIndex].image}

@@ -2,7 +2,7 @@ export default function HeroComponent() {
   return (
     <div
       id="hero"
-      className=" font-raleway h-[600px] flex justify-between items-center pt-16"
+      className=" font-raleway h-[600px] flex max-sm:flex-col justify-between items-center pt-16"
     >
       <div className=" basis-1/2">
         <div className=" flex flex-col gap-5 items-start w-[300px]">
@@ -20,7 +20,7 @@ export default function HeroComponent() {
           </div>
         </div>
       </div>
-      <div className=" basis-1/2 h-[700px] flex items-center justify-center">
+      <div className=" max-sm:hidden basis-1/2 h-[700px] flex items-center justify-center">
         <div className=" w-[500px] h-[500px]">
           <img
             className=" w-full h-full object-cover rounded-full"
