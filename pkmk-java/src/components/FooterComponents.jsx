@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export default function FooterComponent() {
   return (
-    <div className=" w-full grid grid-cols-4 place-items-start mt-24 font-openSans ">
+    <div className=" w-full grid grid-cols-4 place-items-start justify-items-center mt-24 font-openSans ">
       <div className=" flex flex-col gap-3">
         <div className=" flex h-full items-center gap-3">
           <h1 className=" font-bold text-xl">PKMK Java brown</h1>
