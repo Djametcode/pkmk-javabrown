@@ -1,22 +1,63 @@
+import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
+
 export default function HeroComponent() {
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const imagelist = [
+    {
+      image: "/hero.jpg",
+    },
+    {
+      image: "/hero0.jpg",
+    },
+    {
+      image: "/hero2.jpg",
+    },
+    {
+      image: "/hero3.jpg",
+    },
+  ];
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      if (currentIndex === imagelist.length - 1) {
+        setCurrentIndex(0);
+      }
+      setCurrentIndex(currentIndex + 1);
+    }, 2000);
+
+    return () => clearInterval(interval);
+  });
   return (
     <div
       id="hero"
-      className=" font-raleway h-[600px] flex max-sm:flex-col justify-between items-center pt-16"
+      className=" font-raleway max-sm:h-full max-sm:mb-16 h-[600px] flex max-sm:flex-col justify-between items-center pt-16"
     >
       <div className=" basis-1/2">
-        <div className=" flex flex-col gap-5 items-start w-[300px]">
-          <h1 className=" text-4xl font-extrabold">
+        <div className=" flex flex-col gap-5 max-sm:gap-7 items-start w-[300px]">
+          <h1 className=" max-sm:text-2xl text-4xl font-extrabold">
             We Server Delicious <span className=" text-[#f29b16]">Food</span>
           </h1>
+          <div className=" md:hidden w-full h-[300px]">
+            <img
+              className=" w-full h-full rounded-3xl object-cover"
+              src={imagelist[currentIndex].image}
+              alt=""
+            />
+          </div>
           <p className=" text-left text-sm text-[#757575]">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
             molestiae recusandae non earum saepe minima impedit tempore
             praesentium deserunt dolor! Vitae, soluta omnis. Labore facere
             officiis totam nesciunt voluptatum ad!
           </p>
-          <div className=" w-[150px] h-[50px] bg-[#ff9b04] rounded-2xl font-extrabold text-white">
-            <button className=" w-full h-full">Order Now</button>
+          <div className=" flex w-[150px] h-[50px] bg-[#ff9b04] rounded-2xl font-extrabold text-white">
+            <Link
+              to={"https://wa.me/6285290376771"}
+              className=" flex items-center justify-center w-full h-full"
+            >
+              Order Now
+            </Link>
           </div>
         </div>
       </div>

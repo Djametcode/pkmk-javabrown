@@ -56,10 +56,10 @@ export default function CustomersReviewComponents() {
 
   return (
     <div className=" flex flex-col items-center pt-24 rounded-3xl mt-24">
-      <h1 className="text-4xl font-extrabold text-center font-openSans">
+      <h1 className=" max-sm:text-2xl text-4xl font-extrabold text-center font-openSans">
         Customers <span className="text-[#f29b16]">Say</span>
       </h1>
-      <div className=" flex max-sm:flex-col items-center justify-center h-[550px] max-sm:w-screen w-[1200px] pt-16">
+      <div className=" max-sm:p-4 flex max-sm:flex-col items-center justify-center h-[550px] max-sm:w-screen w-[1200px] pt-16">
         <div className="flex flex-col items-start gap-3 basis-1/2 bg-white p-10 rounded-3xl">
           <div className="flex gap-3 mb-4">
             <div className="w-[40px] h-[40px] bg-black rounded-full"></div>

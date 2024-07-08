@@ -3,11 +3,11 @@ import { IoStar } from "react-icons/io5";
 export default function BestMenuComponent() {
   return (
     <div className=" w-full max-sm:h-full h-[800px] font-poppins">
-      <h1 className=" text-4xl font-extrabold text-center pt-14">
+      <h1 className=" max-sm:text-2xl text-4xl font-extrabold text-center pt-14">
         Our Best <span className=" text-[#f29b16]">Menu</span>
       </h1>
       <div className=" grid grid-cols-3 max-sm:gap-y-6 max-sm:grid-cols-1 place-items-center pt-24">
-        <div className=" max-sm:h-full h-[410px] w-[320px] overflow-hidden rounded-3xl bg-white hover:shadow-xl hover:translate-y-11">
+        <div className=" max-sm:h-full h-[410px] w-[320px] overflow-hidden rounded-3xl bg-white hover:shadow-xl">
           <div className=" h-[300px] w-full">
             <img
               className=" w-full h-full object-cover"
@@ -36,7 +36,7 @@ export default function BestMenuComponent() {
             </div>
           </div>
         </div>
-        <div className=" h-[410px] w-[320px] overflow-hidden rounded-3xl bg-white hover:shadow-xl hover:translate-y-11">
+        <div className=" h-[410px] w-[320px] overflow-hidden rounded-3xl bg-white hover:shadow-xl">
           <div className=" h-[300px] w-full">
             <img
               className=" w-full h-full object-cover"
@@ -65,7 +65,7 @@ export default function BestMenuComponent() {
             </div>
           </div>
         </div>
-        <div className=" h-[410px] w-[320px] overflow-hidden rounded-3xl bg-white hover:shadow-xl hover:translate-y-11">
+        <div className=" h-[410px] w-[320px] overflow-hidden rounded-3xl bg-white hover:shadow-xl">
           <div className=" h-[300px] w-full">
             <img
               className=" w-full h-full object-cover"
