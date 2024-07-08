@@ -22,12 +22,13 @@ export default function HeroComponent() {
     const interval = setInterval(() => {
       if (currentIndex === imagelist.length - 1) {
         setCurrentIndex(0);
+      } else {
+        setCurrentIndex(currentIndex + 1);
       }
-      setCurrentIndex(currentIndex + 1);
     }, 2000);
 
     return () => clearInterval(interval);
-  });
+  }, [currentIndex]);
   return (
     <div
       id="hero"
