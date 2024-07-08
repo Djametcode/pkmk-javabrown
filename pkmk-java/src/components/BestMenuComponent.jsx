@@ -1,4 +1,5 @@
 import { IoStar } from "react-icons/io5";
+import { Link } from "react-router-dom";
 
 export default function BestMenuComponent() {
   return (
@@ -28,7 +29,7 @@ export default function BestMenuComponent() {
             </div>
             <div className=" flex flex-col gap-3">
               <div className=" bg-[#ed9704] p-1 rounded-2xl text-white text-sm">
-                <h1>Order Now</h1>
+                <Link to={"https://wa.me/6285290376771"}>Order Now</Link>
               </div>
               <div className="">
                 <p>Rp. 10000</p>
@@ -57,7 +58,7 @@ export default function BestMenuComponent() {
             </div>
             <div className=" flex flex-col gap-3">
               <div className=" bg-[#ed9704] p-1 rounded-2xl text-white text-sm">
-                <h1>Order Now</h1>
+                <Link to={"https://wa.me/6285290376771"}>Order Now</Link>
               </div>
               <div className="">
                 <p>Rp. 10000</p>
@@ -86,7 +87,7 @@ export default function BestMenuComponent() {
             </div>
             <div className=" flex flex-col gap-3">
               <div className=" bg-[#ed9704] p-1 rounded-2xl text-white text-sm">
-                <h1>Order Now</h1>
+                <Link to={"https://wa.me/6285290376771"}>Order Now</Link>
               </div>
               <div className="">
                 <p>Rp. 10000</p>
