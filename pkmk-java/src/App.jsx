@@ -7,6 +7,7 @@ import HeroComponent from "./components/HeroComponent";
 import MobileNavComponent from "./components/MobileNavComponents";
 import NavbarComponent from "./components/NavbarComponent";
 import WhyChooseUsComponent from "./components/WhyChooseUsComponents";
+import WhatsappLinkComponent from "./components/WhatsappLink";
 
 export default function App() {
   const [isNavAcvive, setIsNavActive] = useState(false);
@@ -21,6 +22,7 @@ export default function App() {
           <MobileNavComponent setIsActive={setIsNavActive} />
         ) : null}
         <NavbarComponent setIsActive={setIsNavActive} />
+        <WhatsappLinkComponent />
 
         <div className=" w-full relative max-sm:pr-5 max-sm:pl-5 pr-44 pl-44 ">
           <HeroComponent />
