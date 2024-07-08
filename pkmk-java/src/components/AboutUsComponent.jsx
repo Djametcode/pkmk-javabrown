@@ -16,7 +16,7 @@ export default function AboutUsComponent() {
       <div className=" basis-1/2 max-sm:basis-0 max-sm:h-[200px] h-[700px] flex items-center justify-center">
         <div className=" flex flex-col gap-5 items-start w-[300px]">
           <h1 className=" max-sm:text-2xl text-4xl font-extrabold">
-            About <span className=" text-[#f29b16]">Us</span>
+            Tentang <span className=" text-[#f29b16]">Kita</span>
           </h1>
           <div className=" md:hidden w-full h-[300px]">
             <img

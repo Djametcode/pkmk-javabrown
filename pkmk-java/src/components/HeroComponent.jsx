@@ -37,7 +37,7 @@ export default function HeroComponent() {
       <div className=" basis-1/2">
         <div className=" flex flex-col gap-5 max-sm:gap-7 items-start w-[300px]">
           <h1 className=" max-sm:text-2xl text-4xl font-extrabold">
-            We Server Delicious <span className=" text-[#f29b16]">Food</span>
+            Beli Brownies ? <span className=" text-[#f29b16]">Disini saja</span>
           </h1>
           <div className=" md:hidden w-full h-[300px]">
             <img
@@ -52,12 +52,12 @@ export default function HeroComponent() {
             praesentium deserunt dolor! Vitae, soluta omnis. Labore facere
             officiis totam nesciunt voluptatum ad!
           </p>
-          <div className=" flex w-[150px] h-[50px] bg-[#ff9b04] rounded-2xl font-extrabold text-white">
+          <div className=" animate-bounce flex w-[150px] h-[50px] bg-[#ff9b04] rounded-2xl font-extrabold text-white">
             <Link
               to={"https://wa.me/6285290376771"}
               className=" flex items-center justify-center w-full h-full"
             >
-              Order Now
+              Pesan Sekarang
             </Link>
           </div>
         </div>
