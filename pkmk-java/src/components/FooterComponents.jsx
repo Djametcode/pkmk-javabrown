@@ -25,7 +25,7 @@ export default function FooterComponent() {
           >
             <InstagramIcon />
           </Link>
-          <Link to={"https://www.instagram.com/pkmk.javabrown"}>
+          <Link to={"https://wa.me/6285290376771"}>
             <WhatsappIcon />
           </Link>
           <Link to={"https://www.tiktok.com/@pkmk.unugha.2024"}>
