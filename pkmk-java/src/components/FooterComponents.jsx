@@ -1,5 +1,7 @@
-import { FaInstagram, FaWhatsapp, FaTiktok } from "react-icons/fa";
+import { FaTiktok } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import InstagramIcon from "@mui/icons-material/Instagram";
+import WhatsappIcon from "@mui/icons-material/WhatsApp";
 
 export default function FooterComponent() {
   return (
@@ -16,11 +18,19 @@ export default function FooterComponent() {
           </div>
         </div>
         <div className=" flex gap-2">
-          <Link to={"https://google.com"}>
-            <FaInstagram size={23} />
+          <Link
+            to={
+              "https://www.instagram.com/pkmk.javabrown?igsh=MW1laGkwY3pwazNnNg=="
+            }
+          >
+            <InstagramIcon />
           </Link>
-          <FaWhatsapp size={23} />
-          <FaTiktok size={23} />
+          <Link to={"https://www.instagram.com/pkmk.javabrown"}>
+            <WhatsappIcon />
+          </Link>
+          <Link to={"https://www.tiktok.com/@pkmk.unugha.2024"}>
+            <FaTiktok size={23} />
+          </Link>
         </div>
       </div>
       <div className=" flex flex-col gap-3">

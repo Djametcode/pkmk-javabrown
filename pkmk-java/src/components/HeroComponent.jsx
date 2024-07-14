@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import Button from "@mui/material/Button";
 
 export default function HeroComponent() {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -52,14 +53,18 @@ export default function HeroComponent() {
             praesentium deserunt dolor! Vitae, soluta omnis. Labore facere
             officiis totam nesciunt voluptatum ad!
           </p>
-          <div className=" animate-bounce flex w-[150px] h-[50px] bg-[#ff9b04] rounded-2xl font-extrabold text-white">
+          <Button
+            variant="contained"
+            sx={{ bgcolor: "#ff9b04", color: "white" }}
+            className=" animate-bounce flex w-[200px] h-[50px] rounded-2xl font-extrabold"
+          >
             <Link
               to={"https://wa.me/6285290376771"}
               className=" flex items-center justify-center w-full h-full"
             >
               Pesan Sekarang
             </Link>
-          </div>
+          </Button>
         </div>
       </div>
       <div className=" max-sm:hidden basis-1/2 h-[700px] flex items-center justify-center">
